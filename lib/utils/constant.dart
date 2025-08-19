@@ -14,6 +14,7 @@ class Constant {
   static String ID = 'ID';
   static String VENUEID = 'VENUEID';
   static String VENUENAME = 'VENUENAME';
+  static String CIVILID = 'civil_id';
 
   static showLog(var txt) {
     if (isShowLog) print(txt);

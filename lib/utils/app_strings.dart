@@ -56,3 +56,8 @@ const enterOTP = 'Enter OTP';
 const enterPasswordConfirmPassword =
     'Enter password & confirm passeord and both must be match';
 const logout = 'Logout';
+const dropPickup = 'DROP/PICKUP';
+const profile = 'Profile';
+const name = 'Name: ';
+const civilID = 'Civil Id: ';
+const venue = 'Venue: ';

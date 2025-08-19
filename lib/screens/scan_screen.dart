@@ -297,12 +297,15 @@ class _ScanScreenState extends State<ScanScreen> {
                         },
                       ),
 
-                    if (level3Model != null) 20.height,
                     if (level3Model != null)
-                      Text(level3, style: smallTextStyle),
-                    if (level3Model != null) 4.height,
+                      if (level3Model!.levels3!.isNotEmpty) 20.height,
                     if (level3Model != null)
-                      if (level3Model!.levels3 != null)
+                      if (level3Model!.levels3!.isNotEmpty)
+                        Text(level3, style: smallTextStyle),
+                    if (level3Model != null)
+                      if (level3Model!.levels3!.isNotEmpty) 4.height,
+                    if (level3Model != null)
+                      if (level3Model!.levels3!.isNotEmpty)
                         PVDropdown(
                           options: level3Model!.levels3!,
                           hintText: 'Select Level 3',

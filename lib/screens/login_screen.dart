@@ -41,6 +41,7 @@ class _LoginScreenState extends State<LoginScreen> {
         await setValue(Constant.STAFF, response![Constant.STAFF]);
         await setValue(Constant.VENUEID, response![Constant.VENUEID]);
         await setValue(Constant.VENUENAME, response![Constant.VENUENAME]);
+        await setValue(Constant.CIVILID, response![Constant.CIVILID]);
 
         //_showSuccessPopup(context, msg);
         //ScanScreen().launch(context, isNewTask: true);
